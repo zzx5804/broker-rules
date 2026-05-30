@@ -29,7 +29,7 @@ Rule counts:
 
 ## Usage
 
-Replace `YOUR_USER/YOUR_REPO` with your GitHub repository path.
+This repository is published at `masnmarc/broker-rules`.
 
 ### Surge
 
@@ -38,28 +38,28 @@ Replace `YOUR_USER/YOUR_REPO` with your GitHub repository path.
 Broker = select, HK-Fixed-IP, US-Fixed-IP
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/Surge/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/Surge/Broker/Broker.list,Broker
 ```
 
 ### Shadowrocket
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/Shadowrocket/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/Shadowrocket/Broker/Broker.list,Broker
 ```
 
 ### Loon
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/Loon/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/Loon/Broker/Broker.list,Broker
 ```
 
 ### Quantumult X
 
 ```ini
 [filter_remote]
-https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/QuantumultX/Broker/Broker.list, tag=Broker, force-policy=Broker, enabled=true
+https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/QuantumultX/Broker/Broker.list, tag=Broker, force-policy=Broker, enabled=true
 ```
 
 Notes:
@@ -74,7 +74,7 @@ rule-providers:
   broker:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/Clash/Broker/Broker.yaml
+    url: https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/Clash/Broker/Broker.yaml
     path: ./ruleset/broker.yaml
     interval: 86400
 
@@ -89,7 +89,7 @@ rule-providers:
   broker:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/rule/Stash/Broker/Broker.yaml
+    url: https://raw.githubusercontent.com/masnmarc/broker-rules/main/rule/Stash/Broker/Broker.yaml
     path: ./ruleset/broker.yaml
     interval: 86400
 
