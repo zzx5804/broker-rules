@@ -1,11 +1,11 @@
 # NAME: Broker
 # AUTHOR: MsMc
 # REPO: https://github.com/Allen2023/broker-rules
-# UPDATED: 2026-06-06
-# HOST-SUFFIX: 49
+# UPDATED: 2026-06-12
+# HOST-SUFFIX: 52
 # HOST: 18
 # IP-CIDR: 18
-# TOTAL: 85
+# TOTAL: 88
 HOST-SUFFIX,futuhk.com,Broker
 HOST-SUFFIX,futu.link,Broker
 HOST-SUFFIX,futunn.com,Broker
@@ -31,6 +31,7 @@ HOST-SUFFIX,futuesop.com,Broker
 HOST-SUFFIX,futubull.cn,Broker
 HOST-SUFFIX,futuchain.com,Broker
 HOST-SUFFIX,moomoo.com,Broker
+HOST-SUFFIX,futustatic.com,Broker
 HOST-SUFFIX,lbctrl.com,Broker
 HOST-SUFFIX,lbkrs.com,Broker
 HOST-SUFFIX,wbrks.com,Broker
